@@ -1,12 +1,12 @@
 # ChatApp
 
 
-##Installation Steps
+## Installation Steps
 
 Install Node Version  6.9.0 or higher on your machine
 Run npm install to install all node packages
 
-##App Functionality
+## App Functionality
 
 Parses Text Input and gives JSON representation using below logic:
 Your service should parse the following data from the input:
@@ -87,4 +87,3 @@ Run `npm test` to execute the unit tests via [Karma](https://karma-runner.github
 
 Run `npm e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## External Libraries Used - Bootstrap for HTML/CSS. Apart from this project uses Angular 4 which comes bundled with FormsModule for Forms, HTTPModule for http Requests.
