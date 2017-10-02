@@ -1,0 +1,26 @@
+
+<div class="row">
+	<div class="col-md-12 col-sm-12 chat-output">
+  	<p *ngIf="submitted" id="output">{{output}}</p>
+  	<h1 [hidden]="!showError" class="alert-danger">
+  		Oops! Something is not right. Please try again.
+  	</h1>
+  </div>
+</div>
+<div class="row">
+	<div class="col-md-12 col-sm-12 chat-input">
+  	<form (ngSubmit)="onSubmit()" #chatForm="ngForm">
+    	<div class="form-group">
+        <input type="text" 
+        	class="form-control" 
+        	id="message" 
+        	name="message"
+        	[(ngModel)]="model.message"
+        	placeholder="Type a message...." 
+        	required
+        	(keyup.enter)="onEnter()"
+        >
+      </div> 
+    </form>
+  </div>
+</div>

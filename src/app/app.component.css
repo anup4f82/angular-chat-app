@@ -1,0 +1,16 @@
+h1 {
+	color: #00aff0;
+}
+
+.side-bar {
+  border-right: 1px solid #00aff0;
+}
+
+.header {
+	background: #D3D3D3;
+	text-align: center;
+}
+
+.container-fluid {
+	height: 100%;
+}
