@@ -4,7 +4,7 @@
 ## Installation Steps
 
 Install Node Version  6.9.0 or higher on your machine
-Run npm install to install all node packages
+Run `npm install` to install all node packages
 
 ## App Functionality
 
